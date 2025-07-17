@@ -65,7 +65,7 @@ function updateTime(){
 }
 
 
-const api_url ="https://zenquotes.io/api/quotes/";
+const api_url ="https://quotes.rest/qod";
 
 async function getapi(url)
 {
@@ -78,3 +78,4 @@ getapi(api_url);
 
 
 setInterval(updateTime, 1000);
+
