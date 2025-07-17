@@ -1,0 +1,52 @@
+
+.montserrat{
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #000000;
+    padding-left: 5%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+
+#Time{
+    font-size: 3em;
+}
+
+
+#separator{
+    height: 20px;
+}
+
+.weatherElements{
+    text-align: right;
+    padding-right: 20px;
+}
+
+#progressBarContainer{
+    width: 70%;
+    height: 5px;
+    background-color: #696969;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    visibility: visible;
+
+
+}
+
+#progressBar{
+    width: 5%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
