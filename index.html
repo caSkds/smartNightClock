@@ -15,10 +15,12 @@
     <body>
         <div id = "headerElements">
             <div id = "Guadalajara" class = "weatherElements">
-                <h3 id = "guadalajaraTime" class="temp"> text1</h3>
+                <img id = "guadalajaraIcon" class = "icon" src="testImg.png" >
+                <h3 id = "guadalajaraTime" class="temp"> Gdl</h3>
             </div>
             <div id = "Zamora" class = "weatherElements">
-                <h3 id = "zamoraTime" class ="temp"> text1</h3>
+                <img id = "zamoraIcon" class = "icon" src="testImg.png" >
+                <h3 id = "zamoraTime" class ="temp"> Zam</h3>
             </div>
             
         </div>
@@ -32,8 +34,8 @@
             </div>
         </div>
         <div id="quoteElements">
-            <h3 id="quoteText">"The only way to do great work is to love what you do."</h3>
-            <h4 id="quoteAuthor">- Steve Jobs</h4>
+            <h3 id="quoteText" onclick="updateQuote()">"The only way to do great work is to love what you do."</h3>
+            <h4 id="quoteAuthor" onclick="updateQuote()">- Steve Jobs</h4>
 
         </div>
         
