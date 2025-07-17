@@ -24,8 +24,8 @@ let daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 let quote;
 let author;
 const api_url ="https://api.quotable.io/random";
-zamoraURL = "http://api.weatherapi.com/v1/current.json?key=4dd9dc5d1414467ab0034643251707&q=Zamora&aqi=no";
-guadalajaraURL = "http://api.weatherapi.com/v1/current.json?key=4dd9dc5d1414467ab0034643251707&q=Guadalajara&aqi=no";
+zamoraURL = "https://api.weatherapi.com/v1/current.json?key=4dd9dc5d1414467ab0034643251707&q=Zamora&aqi=no";
+guadalajaraURL = "https://api.weatherapi.com/v1/current.json?key=4dd9dc5d1414467ab0034643251707&q=Guadalajara&aqi=no";
 
 //program specific variables
 dimmed = false;
